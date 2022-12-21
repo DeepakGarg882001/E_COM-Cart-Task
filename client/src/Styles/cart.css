@@ -1,0 +1,123 @@
+.cart-canvas{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-canvas-top{
+    text-align: center;
+    padding: 10px;
+}
+.cart-empty-btn{
+    padding: 15px 30px;
+    background-color: orange;
+    border: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 3.8px;
+   
+}
+.cart-products-canvas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px auto;
+    gap:20px;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.cart-product-card{
+    flex-shrink: 1;
+    flex-basis: 300px;
+    box-shadow: 0px 0px 6px -1px #9d8787;
+    margin: 0px auto;
+    border-radius: 9px;
+    background-color: white;
+   
+}
+.under-cart-product-frame{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cart-product-card-img{
+    max-width: 100%;
+    width: auto;
+    height: 300px;
+}
+.cart-product-name{
+    font-size: 1.35rem;
+    padding-left: 20px;
+    color: #181515;
+    font-weight: 500px;
+    margin-top: 7px;
+}
+.cart-product-price-sec{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    gap:8px;
+}
+.cart-org-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8b8b8b;
+}
+.cart-dis-price{
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.cart-dis-off{
+    color: green;
+    font-size: 1.28rem;
+    font-weight: bold;
+}
+.cart-shiping-cost{
+    color: black;
+    font-size: 0.9rem;
+    padding-left: 20px;
+    margin-top: 1px;
+}
+.cart-rating-sec{
+    padding-left: 20px;
+    display: flex;
+    gap: 2.5px;
+    color: #cbc7c7;
+    margin-top: 1px;
+    font-size: 1rem;
+}   
+.cart-rating-true{
+    color: #189518;
+}
+.cart-extra-status{
+ color: #189518;
+ font-size: 1rem;
+ padding-left: 20px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+.cart-product-card-bottom{
+    background-color: #ed9d01;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.cart-product-card-btn{
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
